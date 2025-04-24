@@ -1,0 +1,21 @@
+This project showsa a detailed photometric analysis of an eclipsing binary system. We do this 
+through the use of flux measurments across time. The main objective is to analyze the flux and 
+Julian Heliocentric (HJD) measurments and find the primary eclipsing point for this curve.
+
+In order to do this, I began with cleaning a set of data from my best observation night. Orginally
+it was a .dat file with numerous headers and values, using linux commands I pulled the necessary
+flux and HJD data. Once the data was "cleaned" I began writing the python script to read and
+process the \texttt{flux\_final.txt} file containing the data. The script used standard scientific 
+libraries to plot the light curve, calcualte an average, and detect the minimum flux value. The 
+eclipse and duration were also calculated from the plotted data.
+
+The inverse square law was applied to convert the relative flux into an estimate of the system's
+intrinsic luminosity. After manually calculating this system distance from earth start at 
+94.54 milliarcseconds, I found it was 34.13 light-years away. Changing the distance in lighyear value 
+will be needed for various systems. 
+
+The final output gives us three figures: a raw light curve, intrinsic luminosity curve, and a plot
+highlighting the eclipses various characteristics. This method helps demonstrate how computational
+methods can be used in the field of astrophysics to efficiently read through data. This code can 
+take in and process any set of varying flux systems to find its characteriscs, speeding up 
+the system intepretation process.  

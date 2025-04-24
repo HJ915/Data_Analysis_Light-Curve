@@ -1,0 +1,23 @@
+The data used in this project consists of time-series photometric observations recorded in the 
+file \texttt{flux\_final.txt}. Each row is in the data set contains an Heliocentric Julian Date 
+(HJD) value and the corresponding relative flux measurement of the observed binary star system.
+The orginial raw data was obtained from a larger observational file and the processed to isolate
+only the relevant columns: time and flux.
+
+The data cleaning process was performed using Linux command-line tools to extract the third and 
+fourth columans of the original dataset, which represented the HJD and \texttt{rel\_flux\_T!} 
+values. A header row was added to label the columns for compatibility with Python's \texttt{pandas}
+library. This simplified the data importing and analysis proves in the python script.
+
+The head of the dataset is shown:
+
+\begin{verbatim}
+HJD_UTC    rel_flux_T1
+2460634.648530    0.069839
+2460634.649953    0.075013
+2460634.651376    0.072118
+\end{verbatim}
+
+This format was primarly chosen to keep efficiency and ease with Python. The data is assumed to
+be free of major outliers and errors. Some variability is shown but most likely due to the presence 
+of natural atmospheric and eclipsing during collection. 

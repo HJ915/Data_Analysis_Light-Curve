@@ -1,0 +1,25 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Mazeh et~al.(2006)Mazeh, Tamuz, and North]{mazeh2006automated}
+T.~Mazeh, O.~Tamuz, and P.~North.
+\newblock Automated analysis of eclipsing binary light curves – i. ebas.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  367\penalty0 (4):\penalty0 1521--1528, 2006.
+\newblock \doi{10.1111/j.1365-2966.2006.10013.x}.
+\newblock URL \url{https://academic.oup.com/mnras/article/367/4/1521/1746920}.
+
+\bibitem[Scopatz and Huff(2015)]{scopatz2015effective}
+Anthony Scopatz and Kathryn~D. Huff.
+\newblock \emph{Effective Computation in Physics: Field Guide to Research with
+  Python}.
+\newblock O’Reilly Media, Inc., 2015.
+\newblock ISBN 978-1-491-90153-3.
+\newblock URL
+  \url{https://www.oreilly.com/library/view/effective-computation-in/9781491901540/}.
+
+\end{thebibliography}

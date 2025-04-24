@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+
+%Packages
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{natbib}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{titlesec}
+
+%Title formatting
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+%Title
+\title{Light Curve Analysis of an Eclipsing Binary}
+\author{Jackson Hill \\ University of Central Arkansas}
+\date{\today}
+
+%Document
+\begin{document}
+
+\maketitle
+\clearpage
+
+\input{abstract}
+\clearpage
+
+\section{Introduction}
+\input{intro}
+\clearpage
+
+\section{Data}
+\input{data}
+\clearpage
+
+\section{Visualization}
+\input{visualization}
+\clearpage
+
+\section{Analysis}
+\input{analysis}
+\clearpage
+
+\section{Conclusion}
+\input{conclusion}
+\clearpage
+
+%Bibliography
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
